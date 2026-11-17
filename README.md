@@ -83,7 +83,7 @@ No accounts, credentials or environment secrets are needed by this demo. GitHub 
 
 ## Indexing and metadata
 
-The HTML includes `noindex, nofollow`, Open Graph metadata and a custom SVG favicon. `robots.txt` disallows crawling; Vercel also returns `X-Robots-Tag`. These are crawler instructions, not access control. Use host access protection if the proposal must be private. Set `og:image` to the final absolute hosted image URL if social sharing is needed; it currently uses the deployment-relative asset path. Keep the concept notice and indexing safeguards for this demo.
+The HTML includes `noindex, nofollow`, Open Graph metadata and a custom SVG favicon. `robots.txt` disallows crawling; Vercel also returns `X-Robots-Tag`. These are crawler instructions, not access control. Use host access protection if the proposal must be private. The Open Graph image uses the absolute GitHub Pages image URL; update it if moving to a different host. Keep the concept notice and indexing safeguards for this demo.
 
 ## Evidence and asset provenance
 
