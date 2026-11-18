@@ -41,7 +41,7 @@ At delivery, `npm audit --omit=dev` reports **zero vulnerabilities**. The full a
 - `src/pages/`: home, domestic, commercial, about, careers and contact page layouts and supporting editorial copy.
 - `src/components/`: reusable layout, UI and demo form.
 - `src/data/validation.ts`: shared validation, covered by `tests/validation.test.mjs`.
-- `src/index.css`: responsive design system, typography, colours and reduced-motion support; Tailwind utilities are also available.
+- `src/index.css`: responsive design system, typography, colours and reduced-motion support; Tailwind utilities are also available. Brand palette: white `#FFFFFF`, navy `#173B52`, teal `#298FA3`, mint `#71C8B8`, pale mint `#E8F5F1`. Small text links use a darker teal `#24768B` for contrast on white and pale mint.
 - `src/assets/`: locally bundled fonts and SIL Open Font License notices.
 - `public/images/`: locally hosted illustrative stock photography.
 
